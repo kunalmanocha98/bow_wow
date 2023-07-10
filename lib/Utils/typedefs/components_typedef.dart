@@ -1,0 +1,1 @@
+typedef BottomNavigationClick = void Function(int?);

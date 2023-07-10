@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "564415046599",
+    "project_id": "bow-wow-wow-wow",
+    "storage_bucket": "bow-wow-wow-wow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564415046599:android:83a4ebfa116131f777efe2",
+        "android_client_info": {
+          "package_name": "com.nymble.bowwow.bow_wow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564415046599-27rlhhvjeaonvd95sv9kt5b5euhop7qj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nymble.bowwow.bow_wow",
+            "certificate_hash": "c495f0d22282853be3e4f450dfadb2cca976ae8f"
+          }
+        },
+        {
+          "client_id": "564415046599-ju3s27sfrnt5p149culrmie4tv1etsve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgasl_eEFeKxCd-FpSmr59gRHG_MoHMd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564415046599-ju3s27sfrnt5p149culrmie4tv1etsve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
