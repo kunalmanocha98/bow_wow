@@ -1,6 +1,6 @@
 import 'package:bow_wow/Components/Dialogs/adopt_dialog.dart';
 import 'package:bow_wow/Components/HelperClasses/loading_widget.dart';
-import 'package:bow_wow/Components/adopt_button.dart';
+import 'package:bow_wow/Components/Buttons/adopt_button.dart';
 import 'package:bow_wow/Components/detail_tile_widget.dart';
 import 'package:bow_wow/Components/image_view.dart';
 import 'package:bow_wow/Components/owner_tile.dart';

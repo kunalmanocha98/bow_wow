@@ -1,4 +1,4 @@
-import 'package:bow_wow/UI/HomePage/home_page.dart';
+import 'package:bow_wow/UI/OnboardingPage/onboarding_page.dart';
 import 'package:bow_wow/UI/Splash/Bloc/splash_state.dart';
 import 'package:bow_wow/Utils/Services/navigator_service.dart';
 import 'package:flutter/material.dart';
@@ -9,7 +9,7 @@ class SplashBloc extends Cubit<SplashState>{
 
   void startTimer(BuildContext context){
     Future.delayed(const Duration(seconds: 3),(){
-      NavigatorService().pushAndRemove(context, const HomePage());
+      NavigatorService().pushAndRemove(context, const OnBoardingPage());
     });
   }
 }

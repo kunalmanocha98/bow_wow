@@ -10,6 +10,7 @@ class Strings{
   static String get allTitle => "All Pets";
   static String get adoptedTitle => "Adopted Pets";
   static String get unAdoptedTitle => "Unadopted Pets";
+  static String get getStarted => "Get Started";
   static String get sex => "Sex";
   static String get age => "Age";
   static String get weight => "Weight";

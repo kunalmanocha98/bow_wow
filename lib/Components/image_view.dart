@@ -29,7 +29,7 @@ class AppImageView {
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
           image: DecorationImage(
-              image: CachedNetworkImageProvider(imageUrl ?? ""),
+              image: CachedNetworkImageProvider(imageUrl),
               fit: BoxFit.cover)),
       child: isAdopted
           ? Center(

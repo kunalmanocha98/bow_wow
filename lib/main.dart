@@ -10,9 +10,11 @@ import 'package:bow_wow/UI/HomePage/Pages/AllPetsListPage/Bloc/all_pets_bloc.dar
 import 'package:bow_wow/UI/HomePage/Pages/AllPetsListPage/Bloc/all_pets_state.dart';
 import 'package:bow_wow/UI/HomePage/Pages/UnAdoptedPetsListPage/Bloc/unadopted_list_bloc.dart';
 import 'package:bow_wow/UI/HomePage/Pages/UnAdoptedPetsListPage/Bloc/unadopted_list_state.dart';
+import 'package:bow_wow/UI/OnboardingPage/Bloc/onboarding_bloc.dart';
+import 'package:bow_wow/UI/OnboardingPage/Bloc/onboarding_state.dart';
+import 'package:bow_wow/UI/OnboardingPage/onboarding_page.dart';
 import 'package:bow_wow/UI/Splash/Bloc/splash_bloc.dart';
 import 'package:bow_wow/UI/Splash/Bloc/splash_state.dart';
-import 'package:bow_wow/UI/Splash/splash_page.dart';
 import 'package:bow_wow/Utils/Constants/string_constants.dart';
 import 'package:bow_wow/Utils/prefs.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -32,6 +34,7 @@ void main() async{
         BlocProvider(create: (BuildContext context) => UnAdoptedListBloc(UnAdoptedInitialState()),),
         BlocProvider(create: (BuildContext context) => AdoptedPetsBloc(AdoptedPetsInitialState()),),
         BlocProvider(create: (BuildContext context) => DetailBloc(DetailInitialState()),),
+        BlocProvider(create: (BuildContext context) => OnBoardingBloc(OnBoardInitialState()),),
       ],
       child: const MyApp()
   ));
@@ -51,7 +54,7 @@ class MyApp extends StatelessWidget {
           theme: bloc.lightTheme,
           darkTheme: bloc.darkTheme,
           themeMode: bloc.currentTheme,
-          home: const SplashPage(),
+          home: const OnBoardingPage(),
         );
       },
     );

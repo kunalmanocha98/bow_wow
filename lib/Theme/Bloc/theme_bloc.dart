@@ -69,7 +69,9 @@ class ThemeBloc extends Cubit<ThemeState> {
             padding: const EdgeInsets.all(12),
             backgroundColor: AppColors.primaryColor,
             foregroundColor: AppColors.appColorWhite,
-            shape: const StadiumBorder(),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12)
+            ),
             textStyle: const TextStyle(
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold,
@@ -80,7 +82,9 @@ class ThemeBloc extends Cubit<ThemeState> {
             padding: const EdgeInsets.all(12),
             backgroundColor: AppColors.primaryColor,
             foregroundColor: AppColors.appColorWhite,
-            shape: const StadiumBorder(),
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12)
+            ),
             textStyle: const TextStyle(
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold,
@@ -118,7 +122,7 @@ class ThemeBloc extends Cubit<ThemeState> {
           color: AppColors.primaryColorDark,
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-          shadowColor: AppColors.primaryColor.withOpacity(0.4),
+          shadowColor: AppColors.primaryColorLight.withOpacity(0.8),
           elevation: 12,
           margin:
               const EdgeInsets.only(left: 16, right: 16, top: 8, bottom: 8)),
@@ -137,7 +141,9 @@ class ThemeBloc extends Cubit<ThemeState> {
             padding: const EdgeInsets.all(12),
               backgroundColor: AppColors.primaryColor,
               foregroundColor: Colors.white,
-              shape: const StadiumBorder(),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12)
+              ),
               textStyle: const TextStyle(
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold,
@@ -147,7 +153,9 @@ class ThemeBloc extends Cubit<ThemeState> {
               padding: const EdgeInsets.all(12),
               backgroundColor: AppColors.primaryColor,
               foregroundColor: Colors.white,
-              shape: const StadiumBorder(),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12)
+              ),
               textStyle: const TextStyle(
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold,

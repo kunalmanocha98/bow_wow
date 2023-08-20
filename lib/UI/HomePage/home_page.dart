@@ -25,7 +25,7 @@ class HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     homeBloc = BlocProvider.of<HomeBloc>(context);
-
+    
     return BlocBuilder<HomeBloc, HomeState>(
       builder: (BuildContext context, state) {
         return Scaffold(
